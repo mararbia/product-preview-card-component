@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card {
+    width: 600px;
+    min-height: 450px;
+    display: flex;
+}
+
+.container .card .card-left {
+    width: 50%;
+}
+
+.container .card .card-left .product-image img {
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.container .card .card-right {
+    background-color: var(--white);
+    width: 50%;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.card .card-right .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card .card-right .wrapper .content h2{
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: var(--dark-grayish-blue);
+}
+
+.card .card-right .wrapper .content h1{
+    font-family: var(--fraunces);
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 20px 0 20px 0;
+}
+
+.card .card-right .wrapper .content p {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.card .card-right .wrapper .price-product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card .card-right .wrapper .price-product p{
+    font-family: var(--fraunces);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var( --dark-cyan);
+}
+
+.card .card-right .wrapper .price-product span {
+    font-family: var(--montserrat);
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    color: var(--dark-grayish-blue);
+}
+
+.card .card-right .wrapper .btn-cart {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-cyan);
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    color: var(--white);
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.card .card-right .wrapper .btn-cart:hover {
+    background-color: rgb(2, 49, 2);
+}

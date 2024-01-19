@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .container .card {
+        flex-direction: column;
+    }
+
+    .container .card .card-left {
+        width: 100%;
+    }
+
+    .container .card .card-left .product-image img {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+    
+    .container .card .card-right {
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+    }
+
+    .card .card-right .wrapper .content h1 {
+        font-size: 3rem;
+    }
+}
